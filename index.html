@@ -1,10 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Firefighter Monitor</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Ben Weinel's Website</title>
+    <meta charset="UTF-8"> 
   </head>
   <body>
-    <div id="root"></div>
+    <div id="About Me">
+        <h1>
+            About Me
+        </h1>
+        <p> 
+            My Name is Benjamin Weinel
+        </p>
+    </div>
+    <div id="Education">
+        <h1>
+            Education
+        </h1>
+        <p> 
+            I am currently working toward a masters degree in electrical engineering at the University of Delaware.
+            I have a bachelors in electrical engineering as well as computer science and cybersecurity minors. I have been on the school's deans list since my second semester with a cumulative GPA of 3.712/4.0 
+        </p>
+    </div>
 
+    <div id="Technical Skills">
+        <h1>
+            Technical Skills
+        </h1>
+        <p> 
+            The main things I have learned during my time at school include circuit design and programming. Though my major I studied analog IC design and VLSI design, learing industry standard tools such as Cadence Virtuoso and Cadence Spectre.
+            I have done research for the Analog Mixed Signal and Photonic Integrated Circuits including work related to analog IC design and FPGA design through Quartus and multisim. 
+            Throughout my engineering degree and computer science minor, I have learned a plethora of languages varying from hardware programming languages such as VHDL and verilog to web design languages like HTML and CSS which were used to make this site!
+            Specifically my minors have given me a solid background for data stuctures and operating systems as well as robust understanding of linux thorugh my cybercecurity classes.
+        </p>
+        <p>
+            <b>Languages:</b> Verilog, VHDL, C, C++, Java, HTML, CSS, MATLAB, Bash, Python.
+        </p>
+        <p>
+            <b>Software:</b> Cadence Virtuoso, Quartus II, Modelsim, NGSpice, Vivado, Linux, VScode, Android Studio.
+        </p>
+    </div>
+
+    <div id="Experience">
+        <h1>
+            Experience
+        </h1>
+        <p> 
+            For the past two summers I have done research with Dr. Vishal Saxena at the AMPIC Lab at the University of Delaware. The first summer at the lab I designed a interface for a family of analog to digital converters,
+            and digital to analog converters in verilog and tested the design on a Cyclone III FPGA. The next year I automated the gm/id design process for the Skywater 130nm process using ngspice scripts and python. This automation is "X" amount faster than a manual charecterization.
+            The same year, I studied materials on mixed signal design covering SAR ADCs, Flash ADCS, MDACs, and noise analysis. A deeper dive of these projects is available in the Projects section of this website.
+        </p>
+    </div>
+
+    <div id="Awards">
+        <h1>
+            Awards
+        </h1>
+        <p> 
+            <b>2x University of Delaware Research Day Winner</b>
+        </p>
+        <p>
+            • Senior Design Category: Firefighter Monitor.<br> 
+            • Undergraduate Research Category: Verilog LTC2668 and LTC2494 interface.
+        </p>
+    </div>
+
+
+
+    <div id="Projects">
+        <h1>
+            Projects
+        </h1>
+        <div class="cardWrapper">
+            <div class="card" id="card1">
+                <img src="Images/GUI.PNG" />
+                <div class="cardcover">
+                    <div class="button">
+                        <b>Firefighter Monitor</b>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="card2">
+                <img src="Images/Amplier Circuit.PNG" />
+                <div class="cardcover">
+                    <div class="button">
+                        <b>180nm Operational Amplifier</b>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="card3">
+                <img src="Images/4bit multiplier.PNG" />
+                <div class="cardcover">
+                    <div class="button">
+                        <b>4-Bit Multiplier</b>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="card4">
+                <img src="Images/FPGATEST.PNG" />
+                <div class="cardcover">
+                    <div class="button">
+                        <b>Interface for LTC2668 and LTC2494</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
   </body>
 </html>
